@@ -37,13 +37,10 @@ function PoolDetail() {
                 <title>{pool.name}</title>
                 <meta property="og:title" content={pool.name} />
                 <meta property="og:description" content={pool.name} />
-                <meta
-                    property="og:image"
-                    content={`https://beets-frontend-groninge.vercel.app/images/og/${pool.id}.jpg`}
-                />
+                <meta property="og:image" content={`https://beets-frontend-iota.vercel.app/images/og/${pool.id}.jpg`} />
                 <meta
                     property="twitter:image"
-                    content={`https://beets-frontend-groninge.vercel.app/images/og/${pool.id}.jpg`}
+                    content={`https://beets-frontend-iota.vercel.app/images/og/${pool.id}.jpg`}
                 />
             </Head>
             <Container maxW="full">
