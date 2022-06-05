@@ -50,7 +50,7 @@ function PoolDetail() {
                 <meta property="twitter:description" content="A nice pool to get started with..." />
                 <meta
                     property="twitter:image"
-                    content={`https://beets-frontend-iota.vercel.app/images/twitter/${pool.id}.jpg`}
+                    content={`https://beets-frontend-iota.vercel.app/images/og/${pool.id}.jpg`}
                 />
             </Head>
             <Container maxW="full">
