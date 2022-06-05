@@ -1,10 +1,11 @@
-import { useRouter } from 'next/router';
+import { GetFbeetsRatio, GetPool } from '~/apollo/generated/operations';
 import { GetPoolQuery, GetPoolQueryVariables, GqlPoolUnion } from '~/apollo/generated/graphql-codegen-generated';
 import { initializeApolloClient, loadApolloState } from '~/apollo/client';
-import { GetFbeetsRatio, GetPool } from '~/apollo/generated/operations';
+
 import PoolDetail from '~/modules/pool/detail/PoolDetail';
 import { PoolProvider } from '~/modules/pool/components/PoolProvider';
 import { networkConfig } from '~/lib/config/network-config';
+import { useRouter } from 'next/router';
 
 interface Props {
     pool: GqlPoolUnion;
